@@ -1,2 +1,56 @@
-# glowflow-angular-ui
-A modern, responsive e-commerce platform built with Angular and Tailwind CSS v4. Features a dynamic product catalog, seamless routing, and optimized production builds for Vercel. Engineered for high performance and scalability.
+GlowFlow 
+GlowFlow is a modern, high-performance e-commerce platform built with Angular 19 and Tailwind CSS v4. It features a responsive design and a streamlined deployment pipeline optimized for Vercel.
+
+🚀 Live Demo
+Link: https://glowflow-one.vercel.app/
+
+🛠️ Tech Stack
+Frontend: Angular 19 (Signals-based state management)
+
+Styling: Tailwind CSS v4 (New utility engine)
+
+Deployment: Vercel (CI/CD)
+
+Runtime: Node.js
+
+✨ Features
+Modern UI: Built with Tailwind CSS v4 for ultra-fast styling and high performance.
+
+SPA Routing: Fully functional client-side routing with fallback support for deep linking.
+
+Production Optimized: Configured for low bundle sizes and fast page loads.
+
+Responsive Design: Mobile-first approach for seamless use across all devices.
+
+📦 Deployment Configuration
+This project is optimized for deployment on Vercel using the following parameters, ensuring that modern Angular directory structures and routing are handled correctly:
+
+Framework Preset: Angular
+
+Build Command: npm run build
+
+Output Directory: dist/glowflow/browser
+
+Routing (vercel.json):
+
+JSON
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+⚙️ Setup & Installation
+Clone the Repository:
+
+Bash
+git clone https://github.com/your-username/glowflow.git
+Install Dependencies:
+
+Bash
+npm install
+Run Development Server:
+
+Bash
+ng serve
+Create Production Build:
+
+Bash
+npm run build
