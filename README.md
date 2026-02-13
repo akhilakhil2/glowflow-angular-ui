@@ -38,19 +38,7 @@ JSON
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
 ⚙️ Setup & Installation
-Clone the Repository:
-
-Bash
-git clone https://github.com/your-username/glowflow.git
-Install Dependencies:
-
-Bash
-npm install
-Run Development Server:
-
-Bash
-ng serve
-Create Production Build:
-
-Bash
-npm run build
+Clone the Repository: git clone https://github.com/akhilakhil2/glowflow-angular-ui.git
+Install Dependencies: npm install
+Run Development Server: ng serve
+Create Production Build: npm run build
